@@ -1,0 +1,197 @@
+#sctForm {
+    align-items: center;
+    width: 500px;
+    margin: 0px 0px 20px 150px;
+    display: inline-block;
+}
+
+.tituloRegistrarRestaurante {
+    height: 52px;
+    width: 1021PX;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    background: #a8293c;
+    color: white;
+    margin: 0px;
+}
+.menu li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    width: 246px;
+    height: 44px;
+}
+.cajonDeAnadirRest {
+    height: 45px;
+    width: 1217px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 5px solid #a8293c;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.cajonDeAnadirRest a {
+    font-size: 22px;
+    width: 279px;
+    margin: 1px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+.cajonDeAnadirRest a:hover {
+    color: #a8293c;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s b957;
+}
+
+
+
+
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    color: #080707;
+}
+.col-sm-10{
+    display: flex;
+    height: 58px;
+    width: 249px;
+}
+
+.cajonDeAnadirRest a {
+    font-size: 22px;
+    width: 279px;
+    margin: 1px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
+.error {
+    border: 2px solid #A8293C;
+}
+form select, form input {
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+
+.cajonDeAnadirRest a:hover {
+    color: #a8293c;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s b957;
+}
+
+
+.formRestaurantes {
+    align-self: flex-end;
+}
+
+.formularioAgregarRestaurante {
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    top: 140px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.datosRestaurantes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-between;
+    height: 514px;
+    flex-wrap: wrap;
+    width: 548px;
+}
+
+
+.formRestaurantes {
+    margin-bottom: 18px;
+}
+
+.checkboxRestaurantes {
+    width: 499px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 516px;
+    flex-direction: column;
+}
+
+#miFormularioRestaurantecheck {
+    display: flex;
+    flex-direction: row;
+    width: 558px;
+    height: 588px;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.registarRestaurantes :hover {
+    color: #582e44;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s b957;
+}
+
+#miFormularioRestaurantecheck label {
+    cursor: default;
+    width: 155px;
+    display: flex;
+    height: 33px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-between;
+}
+
+button#bRegistar {
+    background: #A8293C;
+    border: 3px solid #A8293C;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+button#Borrar {
+    background: #A8293C;
+    border: 3px solid #A8293C;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}

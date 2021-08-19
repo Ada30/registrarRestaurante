@@ -1,0 +1,202 @@
+
+
+.buscar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 1345px;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    color: #080707;
+}
+
+#buscar {
+    width: 1345px;
+    height: 29px;
+}
+
+#tbl-usuarios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 1345px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    height: 1000px;
+}
+#sct-usuarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    float: right;
+    width: 1075px;
+    height: 204px;
+    position: relative;
+    left: -215px;
+}
+
+thead {
+    text-align: -webkit-center;
+    font-size: 35px;
+    text-decoration-color: rgb(168, 41, 60);
+  
+    border-bottom: #d7b957 solid 3px;
+    width: 1314px;
+}
+
+
+tbody {
+    text-align: -webkit-center;
+    font-size: 16px;
+    width: 1345px;
+}
+
+#sctFooter {
+    background-color: #8E7A3D;
+}
+
+footer div {
+    display: flex;
+    padding: 0px 30px 0px 30px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #8E7A3D;
+    width: 1286px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+footer div h2 {
+    text-align: center;
+}
+
+table {
+    font-size: 12px;
+    margin: 45px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th {
+    width: 552px;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+}
+
+td {
+    width: 230px;
+    padding: 8px;
+    border-bottom: 1px solid #582e44;
+}
+
+
+.cajonDeAnadirRest {
+    height: 45px;
+    width: 1217px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 5px solid #a8293c;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.cajonDeAnadirRest a {
+    font-size: 22px;
+    width: 279px;
+    margin: 1px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+.cajonDeAnadirRest a:hover {
+    color: #a8293c;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s b957;
+}
+#txt-filtro{
+    font-size: 18px;
+    text-align: center;
+}
+.registarRestaurantes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    float: right;
+    width: 1547px;
+}
+button#btnModificar{
+    background: #A8293C;
+    border: 3px solid #A8293C;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+button#btnEliminar{
+    background: #A8293C;
+    border: 3px solid #A8293C;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+button#btnListar{
+    background: #A8293C;
+    border: 3px solid #A8293C;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+button#btnActivar{
+    background: #A8293C;
+    border: 3px solid #A8293C;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+button#btnDesactivar{
+    background: #A8293C;
+    border: 3px solid #A8293C;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+tr{
+    
+}
