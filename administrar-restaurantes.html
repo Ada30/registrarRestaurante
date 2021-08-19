@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--Custom CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--Custom-->
+    <link rel="stylesheet" href="css/configuracion-plantilla.css">
+  
+    <link rel="stylesheet" href="css/agregarRestaurantes.css">
+    <title>Registrar Restaurante</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--Menu principal-->
+        <header>
+            <nav class="nav-main">
+                <img src="img/logoComidAqui.png" alt="ComidAqui Logo" class="nav-logo">
+                <ul class="nav-menu">
+                    <li>
+                        <a href="perfiles.html">Perfil</a>
+                    </li>
+                    <li>
+                        <a href="/configuracion-plantilla.html">Configuración</a>
+                    </li>
+                    <li>
+                        <a id="enlaceCerrar">Cerrar Sesión</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <nav class="menu">
+            <ul>
+       
+                <li><a href="/administrar-restaurantes.html" id="admin-restaurante">Restaurantes</a></li>
+                <li><a href="/registro-menu.html" id="admin-menu">Menú</a></li>
+                <li><a href="/registrar-platos.html" id="registrar-platos">Registrar Platos</a></li>
+                  <li><a href="/clasificacion-platos.html" id=configuracion-platos>Configuración de Platos</a></li>
+                <li><a href="/agregar-encargado.html" id="admin-gerente">Agregar Encargado</a></li>
+                 <li><a href="/admin-usuarios.html" id="adm-usuarios">Administrar Usuarios</a></li>
+                        <li><a href="/aceptar-solicitudes.html" id="aceptar-usuarios">Aceptar Usuario</a></li>
+                
+                 <li><a href="/tiempoDeReserva.html" id="admin-tiempoReserva">Tiempo de Reserva</a></li>
+                <li><a href="/administrar-comentario.html" id="admin-comentarios">Comentarios</a></li>
+                  <li><a href="/impuestos.html" id="admin-impuestos">Impuesto</a></li>
+                       <li><a href="/reportes.html" id="admin-reportes">Reportes</a></li>
+                
+            </ul>
+        </nav>
+
+        <article id="principal">
+           
+            <nav class="nav-main">
+                <ul class="nav-menu">
+                  
+                    <div class="cajonDeAnadirRest">
+                        <a href="administrar-restaurantes.html">Configurar</a>
+                        <a href="editarRestaurantes.html">Listar</a>
+                    </div>
+               
+
+            </nav>
+
+          
+              
+
+                        
+                        <section class="formularioAgregarRestaurante">
+
+                            <form class="datosRestaurantes">
+                                <div class="formRestaurantes">
+                                    <label for="txtNombreComercial">Nombre comercial:</label>
+                                    <input type="text" id="txtNombreComercial" required>
+                                </div>
+                                <div class="formRestaurantes">
+                                    <label form="txtCedulaJuridica">Cédula jurídica:</label>
+                                    <input type="number" id="txtCedulaJuridica">
+                                </div>
+                                <div class="formRestaurantes">
+                                    <label for="txtNombreJuridico">Nombre jurídico:</label>
+                                    <input type="text" id="txtNombreJuridico" required>
+                                </div>
+                                <div class="formRestaurantes">
+                                    <label form="txtCorreoElectronico">Correo electrónico:</label>
+                                    <input type="email" id="txtCorreoElectronico">
+                                </div>
+                                <div class="formRestaurantes">
+                                    <label form="txtAforo">Aforo:</label>
+                                    <input type="number" id="txtAforo">
+                                </div>
+                                <div class="formRestaurantes">
+                                    <label form="txtTelefono">Teléfono:</label>
+                                    <input type="number" id="txtTelefono">
+                                </div>
+                                <div class="formRestaurantes">
+                                    <label for="txtDireccion">Dirección:</label>
+                                    <input type="text" id="txtDireccion" required>
+                                </div>
+                                <div class="formRestaurantes">
+                                    <label for="txtProvincia ">Provincia :</label>
+                                    <input type="text" id="txtProvincia" required>
+                                </div>
+                                <div class="formRestaurantes">
+                                     <label for="txtCanton ">Cantón :</label>
+                                    <input type="text" id="txtCanton" required>
+                                </div>
+                                <div class="formRestaurantes">
+            
+                                <label for="txtDistrito">Distrito:</label>
+                                <input type="text" id="txtDistrito" required>
+
+                                </div>
+                            </form>
+
+                            <div class="checkboxRestaurantes">
+                         
+<form id="miFormularioRestaurantecheck">
+   
+
+    <label for=Domingo">Domingo</label>
+    <div class="col-sm-10">
+        <select id="Domingo" required>
+            <option selected value="0"> Abre</option>
+            <option>7:00 am </option>
+            <option>8:00 am </option>
+            <option>9:00 am </option>
+            <option>10:00 am</option>
+            <option>11:00 am</option>
+            <option>Cerrado</option>
+
+        </select>
+
+        <select id="cierra" required>
+            <option selected value="0"> cierra</option>
+            <option>12:00 pm </option>
+            <option>1:00 pm </option>
+            <option>2:00 pm </option>
+            <option>3:00 pm </option>
+            <option>4:00 pm </option>
+            <option>5:00 pm </option>
+            <option>6:00 pm </option>
+            <option>7:00 pm </option>
+            <option>8:00 pm </option>
+            <option>9:00 pm </option>
+            <option>10:00 pm </option>
+            <option>11:00 pm </option>
+            <option>Cerrado</option>
+
+        </select>
+    </div>
+    <label for="Lunes"> Lunes</label>
+    <div class="col-sm-10">
+        <select id="Lunes" required>
+            <option selected value="0"> Abre</option>
+            <option>7:00 am </option>
+            <option>8:00 am </option>
+            <option>9:00 am </option>
+            <option>10:00 am</option>
+            <option>11:00 am</option>
+            <option>Cerrado</option>
+    
+        </select>
+        <select id="CierraLunes" required>
+            <option selected value="0"> Cierra</option>
+            <option>12:00 pm </option>
+            <option>1:00 pm </option>
+            <option>2:00 pm </option>
+            <option>3:00 pm </option>
+            <option>4:00 pm </option>
+            <option>5:00 pm </option>
+            <option>6:00 pm </option>
+            <option>7:00 pm </option>
+            <option>8:00 pm </option>
+            <option>9:00 pm </option>
+            <option>10:00 pm </option>
+            <option>11:00 pm </option>
+            <option>Cerrado</option>
+    
+        </select>
+    </div>
+    
+    <label for="Martes">Martes</label>
+    <div class="col-sm-10">
+        <select id="Martes" required>
+            <option selected value="0"> Abre</option>
+            <option>7:00 am </option>
+            <option>8:00 am </option>
+            <option>9:00 am </option>
+            <option>10:00 am</option>
+            <option>11:00 am</option>
+            <option>Cerrado</option>
+    
+        </select>
+    
+        <select id="CierraMartes" required>
+            <option selected value="0"> Cierra</option>
+            <option>12:00 pm </option>
+            <option>1:00 pm </option>
+            <option>2:00 pm </option>
+            <option>3:00 pm </option>
+            <option>4:00 pm </option>
+            <option>5:00 pm </option>
+            <option>6:00 pm </option>
+            <option>7:00 pm </option>
+            <option>8:00 pm </option>
+            <option>9:00 pm </option>
+            <option>10:00 pm </option>
+            <option>11:00 pm </option>
+            <option>Cerrado</option>
+    
+        </select>
+    </div>
+    
+    <label for="Miercoles">Miércoles</label>
+    <div class="col-sm-10">
+        <select id="Miercoles" required>
+            <option selected value="0"> Abre</option>
+            <option>7:00 am </option>
+            <option>8:00 am </option>
+            <option>9:00 am </option>
+            <option>10:00 am</option>
+            <option>11:00 am</option>
+            <option>Cerrado</option>
+    
+        </select>
+    
+        <select id="CierraMiercoles" required>
+            <option selected value="0"> Cierra</option>
+            <option>12:00 pm </option>
+            <option>1:00 pm </option>
+            <option>2:00 pm </option>
+            <option>3:00 pm </option>
+            <option>4:00 pm </option>
+            <option>5:00 pm </option>
+            <option>6:00 pm </option>
+            <option>7:00 pm </option>
+            <option>8:00 pm </option>
+            <option>9:00 pm </option>
+            <option>10:00 pm </option>
+            <option>11:00 pm </option>
+            <option>Cerrado</option>
+    
+        </select>
+    </div>
+    <label for="Jueves">Jueves</label>
+    <div class="col-sm-10">
+        <select id="Jueves" required>
+            <option selected value="0"> Abre</option>
+            <option>7:00 am </option>
+            <option>8:00 am </option>
+            <option>9:00 am </option>
+            <option>10:00 am</option>
+            <option>11:00 am</option>
+            <option>Cerrado</option>
+    
+        </select>
+    
+        <select id="CierraJueves" required>
+            <option selected value="0"> Cierra</option>
+            <option>12:00 pm </option>
+            <option>1:00 pm </option>
+            <option>2:00 pm </option>
+            <option>3:00 pm </option>
+            <option>4:00 pm </option>
+            <option>5:00 pm </option>
+            <option>6:00 pm </option>
+            <option>7:00 pm </option>
+            <option>8:00 pm </option>
+            <option>9:00 pm </option>
+            <option>10:00 pm </option>
+            <option>11:00 pm </option>
+            <option>Cerrado</option>
+    
+        </select>
+    </div>
+    
+    <label for="Viernes">Viernes</label>
+    <div class="col-sm-10">
+        <select id="Viernes" required>
+            <option selected value="0"> Abre</option>
+            <option>7:00 am </option>
+            <option>8:00 am </option>
+            <option>9:00 am </option>
+            <option>10:00 am</option>
+            <option>11:00 am</option>
+            <option>Cerrado</option>
+    
+        </select>
+    
+        <select id="CierraViernes" required>
+            <option selected value="0"> Cierra</option>
+            <option>12:00 pm </option>
+            <option>1:00 pm </option>
+            <option>2:00 pm </option>
+            <option>3:00 pm </option>
+            <option>4:00 pm </option>
+            <option>5:00 pm </option>
+            <option>6:00 pm </option>
+            <option>7:00 pm </option>
+            <option>8:00 pm </option>
+            <option>9:00 pm </option>
+            <option>10:00 pm </option>
+            <option>11:00 pm </option>
+            <option>Cerrado</option>
+    
+        </select>
+    </div>
+    <label for="Sabado">Sábado</label>
+    <div class="col-sm-10">
+        <select id="Sabado" required>
+            <option selected value="0"> Abre</option>
+            <option>7:00 am </option>
+            <option>8:00 am </option>
+            <option>9:00 am </option>
+            <option>10:00 am</option>
+            <option>11:00 am</option>
+            <option>Cerrado</option>
+    
+        </select>
+    
+        <select id="CierraSabado" required>
+            <option selected value="0"> Cierra</option>
+            <option>12:00 pm </option>
+            <option>1:00 pm </option>
+            <option>2:00 pm </option>
+            <option>3:00 pm </option>
+            <option>4:00 pm </option>
+            <option>5:00 pm </option>
+            <option>6:00 pm </option>
+            <option>7:00 pm </option>
+            <option>8:00 pm </option>
+            <option>9:00 pm </option>
+            <option>10:00 pm </option>
+            <option>11:00 pm </option>
+            <option>Cerrado</option>
+    
+        </select>
+    </div>
+   
+    
+   
+    </form>
+    </div>
+     <div class="registarRestaurantes">
+        <button type="button" id="bRegistar">Registrar</button>
+        <a href="administrar-restaurantes.html"><button type="reset" id="Borrar">Borrar</button></a>
+     
+    </div>
+    </section>
+    
+    
+ 
+    </div>
+      </article>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/servicios-general.js"></script>
+    <script src="js/agregarRestaurantes.js"></script>
+    <script src="js/editarRestaurantes.js"></script>
+    
+
+</body>
+
+</html>
